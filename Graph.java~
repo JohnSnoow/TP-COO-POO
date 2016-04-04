@@ -1,0 +1,34 @@
+package graph;
+/**
+@author Bezet et Gallego
+@version 1.0
+*/
+public interface Graph {
+
+	
+	
+	/**
+	@param v le vertex à ajouter à la liste de Vertex
+	@return rien, met le Vertex dans la liste de Vertex
+	
+	*/
+	public addVertex(Vertex v) {
+	
+    }
+	/**
+	@param e l'edge à ajouter dans la matrice d'adjacence
+	
+	*/
+    public addEdge(Edge e) {
+	
+    }
+
+	/**
+	@param G le Graph dans lequel on veut 
+	*/
+    public giveMeAllVertices(Graph G) {
+
+    }
+
+
+}

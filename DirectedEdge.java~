@@ -1,0 +1,16 @@
+package graph;
+/**
+@author Bezet et Gallego
+@version 1.0
+*/
+public class DirectedEdge extends Edge{
+	
+	private Vertex debut;
+	private Vertex fin;
+	public DirectedEdge(Vertex d, Vertex f) {
+		debut=d;
+		fin=f;
+		
+	}
+
+}

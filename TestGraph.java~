@@ -1,0 +1,14 @@
+package graph;
+/**
+@author Bezet et Gallego
+@version 1.0
+*/
+public class TestGraph implements Graph {
+
+	public static void main(String[] args) {
+		Vertex v1=new Vertex(1);
+		Vertex v2=new Vertex(2);
+		DirectedEdge e=new DirectedEdge(v1,v2);
+	}
+
+}

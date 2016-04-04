@@ -1,0 +1,15 @@
+package graph;
+/**
+@author Bezet et Gallego
+@version 1.0
+*/
+public abstract class Edge {
+	
+	
+	public Edge() {
+		
+		
+		// TODO Auto-generated constructor stub
+	}
+
+}
